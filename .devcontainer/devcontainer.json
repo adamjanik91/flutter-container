@@ -1,0 +1,14 @@
+{
+    "name": "Flutter Dev Container",
+    "dockerFile": "../Dockerfile",
+    "appPort": [],
+    "extensions": [
+      "dart-code.flutter",
+      "dart-code.dart-code"
+    ],
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "remoteUser": "root"
+  }
+  
