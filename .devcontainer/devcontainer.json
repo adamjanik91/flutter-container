@@ -9,6 +9,8 @@
     "settings": {
       "terminal.integrated.defaultProfile.linux": "bash"
     },
-    "remoteUser": "root"
+    "remoteUser": "root",
+    "postCreateCommand": "apt-get update && apt-get install -y python3",
+  "forwardPorts": [9100, 8000]
   }
   
